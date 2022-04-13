@@ -1,1 +1,0 @@
-# VanillaTexturesExpanded-SoS2
