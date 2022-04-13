@@ -9,6 +9,12 @@
 				    <drawSize>(4.1,4)</drawSize>
 			    </value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Ship_HologramRelay"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(1,1)</drawSize>
+			    </value>
+			</li>
 		</operations>	
 	</Operation>
 </Patch>
