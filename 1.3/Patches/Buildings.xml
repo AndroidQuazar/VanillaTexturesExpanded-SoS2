@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Ship_Engine_Small"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(4.1,4)</drawSize>
+			    </value>
+			</li>
+		</operations>	
+	</Operation>
+</Patch>
