@@ -6,13 +6,13 @@
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Weapon_GrenadeMechanite"]/graphicData/texPath</xpath>
 				<value>
-				    <texPath>Things/Item/Equipment/Weapon_GrenadeMechanite</texPath>
+				    <texPath>Things/Item/Weapon_GrenadeMechanite</texPath>
 			    </value>
 			</li>
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "Proj_GrenadeMechanite"]/graphicData/texPath</xpath>
 				<value>
-				    <texPath>Things/Item/Equipment/GrenadeMechanite_Thrown</texPath>
+				    <texPath>Things/Item/GrenadeMechanite_Thrown</texPath>
 			    </value>
 			</li>
 		</operations>	
