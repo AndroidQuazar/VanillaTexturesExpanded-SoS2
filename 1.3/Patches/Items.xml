@@ -15,6 +15,12 @@
 				    <texPath>Things/Item/GrenadeMechanite_Thrown</texPath>
 			    </value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "SpaceHive"]/graphicData/texPath</xpath>
+				<value>
+				    <texPath>Things/Building/Ship/SpaceHive</texPath>
+			    </value>
+			</li>
 		</operations>	
 	</Operation>
 </Patch>
