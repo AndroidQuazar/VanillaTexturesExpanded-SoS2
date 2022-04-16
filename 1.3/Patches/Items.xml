@@ -16,6 +16,12 @@
 			    </value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "WeatherCancelDevice"]/graphicData/texPath</xpath>
+				<value>
+				    <texPath>Things/Item/WeatherCancelDevice</texPath>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "SpaceHive"]/graphicData/texPath</xpath>
 				<value>
 				    <texPath>Things/Building/Ship/SpaceHive</texPath>
