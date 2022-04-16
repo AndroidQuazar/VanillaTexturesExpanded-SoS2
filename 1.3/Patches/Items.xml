@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Weapon_GrenadeMechanite"]/graphicData/texPath</xpath>
+				<value>
+				    <texPath>Things/Item/Equipment/Weapon_GrenadeMechanite</texPath>
+			    </value>
+			</li>
+		</operations>	
+	</Operation>
+</Patch>
