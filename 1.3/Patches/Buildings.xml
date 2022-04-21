@@ -27,6 +27,24 @@
 				    <drawSize>(5,5)</drawSize>
 			    </value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ShipPilotSeatMini"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(4,2)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ShipPilotSeat"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(6,4)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]/building/turretTopDrawSize</xpath>
+				<value>
+				    <turretTopDrawSize>3</turretTopDrawSize>
+			    </value>
+			</li>
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "ShipTurret_Laser"]/building</xpath>
 				<value>
