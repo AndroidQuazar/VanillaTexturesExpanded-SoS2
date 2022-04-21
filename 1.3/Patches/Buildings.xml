@@ -18,7 +18,7 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName = "ShipTurret_Laser"]/building</xpath>
 				<value>
-				    <turretTopDrawSize>2</turretTopDrawSize>
+				    <turretTopDrawSize>3</turretTopDrawSize>
 			    </value>
 			</li>
 			<li Class="PatchOperationReplace">
