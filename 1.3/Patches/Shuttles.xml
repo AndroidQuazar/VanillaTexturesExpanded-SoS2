@@ -43,7 +43,7 @@
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
-				<!-- <li>
+				<li>
 					<texPath>Things/Shuttle/DropshipVariants/BlackRed/BlackDropship_south</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
@@ -90,7 +90,7 @@
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
-				</li> -->
+				</li>
 			</graphics>
 			    </value>
 			</li>
