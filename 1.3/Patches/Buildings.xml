@@ -64,6 +64,18 @@
 			    </value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ShipHeatsink"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(2,4.2)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ShipPurgePort"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(2,4)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]/building/turretTopDrawSize</xpath>
 				<value>
 				    <turretTopDrawSize>3</turretTopDrawSize>
