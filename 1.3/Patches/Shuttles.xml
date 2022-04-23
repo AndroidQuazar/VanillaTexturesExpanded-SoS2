@@ -21,6 +21,85 @@
 				    <defaultPlacingRot>South</defaultPlacingRot>
 			    </value>
 			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "DropshipShuttle"]/graphicData/graphicClass</xpath>
+				<value>
+				    <graphicClass>Graphic_Multi</graphicClass>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "DropshipShuttle"]/graphicData/texPath</xpath>
+				<value>
+				    <texPath>Things/Shuttle/HeavyDropship/HeavyDropship</texPath>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "DropshipShuttle"]/comps/li[@Class="CompProperties_ShuttleCosmetics"]/graphics</xpath>
+				<value>
+			<graphics>
+				<li>
+					<texPath>Things/Shuttle/HeavyDropship/HeavyDropship</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<!-- <li>
+					<texPath>Things/Shuttle/DropshipVariants/BlackRed/BlackDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/DarkBlue/DarkBlueDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/Gray/GrayDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/LightBlue/LightBlueDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/MatteBlue/MatteBlueDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/MatteRed/MatteRedDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/RaceRed/RaceRedDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li>
+				<li>
+					<texPath>Things/Shuttle/DropshipVariants/White/WhiteDropship_south</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>(9,9)</drawSize>
+					<shaderType>Cutout</shaderType>
+				</li> -->
+			</graphics>
+			    </value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "DropshipShuttle"]</xpath>
+				<value>
+				    <defaultPlacingRot>South</defaultPlacingRot>
+			    </value>
+			</li>
 		</operations>	
 	</Operation>
 </Patch>
