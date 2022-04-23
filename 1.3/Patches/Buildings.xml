@@ -46,6 +46,24 @@
 			    </value>
 			</li>
 			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CrittersleepCasket"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(1.8,1)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "CrittersleepCasketLarge"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(3,2)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Cryptonest"]/graphicData/drawSize</xpath>
+				<value>
+				    <drawSize>(1.5,1.5)</drawSize>
+			    </value>
+			</li>
+			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]/building/turretTopDrawSize</xpath>
 				<value>
 				    <turretTopDrawSize>3</turretTopDrawSize>
