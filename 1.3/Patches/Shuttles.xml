@@ -44,49 +44,49 @@
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/BlackRed/BlackDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/BlackRed/BlackDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/DarkBlue/DarkBlueDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/DarkBlue/DarkBlueDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/Gray/GrayDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/Gray/GrayDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/LightBlue/LightBlueDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/LightBlue/LightBlueDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/MatteBlue/MatteBlueDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/MatteBlue/MatteBlueDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/MatteRed/MatteRedDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/MatteRed/MatteRedDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/RaceRed/RaceRedDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/RaceRed/RaceRedDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
 				</li>
 				<li>
-					<texPath>Things/Shuttle/DropshipVariants/White/WhiteDropship_south</texPath>
+					<texPath>Things/Shuttle/DropshipVariants/White/WhiteDropship</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>(9,9)</drawSize>
 					<shaderType>Cutout</shaderType>
