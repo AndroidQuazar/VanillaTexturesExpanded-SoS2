@@ -2,8 +2,8 @@
 <Patch>
    <Operation Class="PatchOperationSequence">
       <operations>
-         <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_ACI"]/graphicData</xpath>
+         <li Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_ACI"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -21,12 +21,12 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_ACII"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_ACII"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
                   <texPath>Things/Building/Ship/HardpointAC_Huge</texPath>
-                  <drawSize>(2,2)</drawSize>
+                  <drawSize>(3,3)</drawSize>
                   <damageData>
                      <rect>(0.38,0.2,0.56375,0.8)</rect>
                      <cornerTL>Damage/Corner</cornerTL>
@@ -39,12 +39,12 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_ACIII"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_ACIII"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
                   <texPath>Things/Building/Ship/HardpointAC_Large</texPath>
-                  <drawSize>(2,2)</drawSize>
+                  <drawSize>(5,5)</drawSize>
                   <damageData>
                      <rect>(0.38,0.2,0.56375,0.8)</rect>
                      <cornerTL>Damage/Corner</cornerTL>
@@ -57,7 +57,7 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -75,7 +75,7 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -92,8 +92,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic"]/graphicData</xpath>
+         <li Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -111,12 +111,12 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser_Large"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser_Large"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
                   <texPath>Things/Building/Ship/HardpointLaser_Large</texPath>
-                  <drawSize>(2,2)</drawSize>
+                  <drawSize>(3,3)</drawSize>
                   <damageData>
                      <rect>(0.38,0.2,0.56375,0.8)</rect>
                      <cornerTL>Damage/Corner</cornerTL>
@@ -129,12 +129,12 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma_Large"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma_Large"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
                   <texPath>Things/Building/Ship/HardpointPlasma_Large</texPath>
-                  <drawSize>(2,2)</drawSize>
+                  <drawSize>(3,3)</drawSize>
                   <damageData>
                      <rect>(0.38,0.2,0.56375,0.8)</rect>
                      <cornerTL>Damage/Corner</cornerTL>
@@ -147,12 +147,12 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic_Large"]/graphicData</xpath>
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic_Large"]</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
                   <texPath>Things/Building/Ship/HardpointKinetic_Large</texPath>
-                  <drawSize>(2,2)</drawSize>
+                  <drawSize>(3,3)</drawSize>
                   <damageData>
                      <rect>(0.38,0.2,0.56375,0.8)</rect>
                      <cornerTL>Damage/Corner</cornerTL>
