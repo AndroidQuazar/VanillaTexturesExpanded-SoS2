@@ -159,12 +159,18 @@
             </value>
          </li>
          <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipPilotSeat"]/interactionCellOffset</xpath>
+            <value>
+               <interactionCellOffset>(0,0,1)</interactionCellOffset>
+            </value>
+         </li>
+         <li Class="PatchOperationReplace">
             <xpath>Defs/ThingDef[defName = "Ship_Reactor"]/graphicData</xpath>
             <value>
                <graphicData>
-                  <texPath>Things/Building/Ship/ShipReactor</texPath>
-                  <graphicClass>Graphic_Multi</graphicClass>
-                  <drawSize>(5.3,5.3)</drawSize>
+                  <texPath>Things/Building/Ship/ShipReactor_east</texPath>
+                  <graphicClass>Graphic_Single</graphicClass>
+                  <drawSize>(5.7,6.5)</drawSize>
                   <damageData>
                      <cornerTL>Damage/Corner</cornerTL>
                      <cornerTR>Damage/Corner</cornerTR>
