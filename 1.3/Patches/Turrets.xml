@@ -2,8 +2,8 @@
 <Patch>
    <Operation Class="PatchOperationSequence">
       <operations>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_ACI"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_ACI"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -20,8 +20,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_ACII"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_ACII"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -38,8 +38,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_ACIII"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_ACIII"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -56,8 +56,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -74,8 +74,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -92,8 +92,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -110,8 +110,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser_Large"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Laser_Large"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -128,8 +128,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma_Large"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Plasma_Large"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
@@ -146,8 +146,8 @@
                </graphicData>
             </value>
          </li>
-         <li Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic_Large"]</xpath>
+         <li Class="PatchOperationReplace">
+            <xpath>Defs/ThingDef[defName = "ShipTurret_Kinetic_Large"]/graphicData</xpath>
             <value>
                <graphicData>
                   <graphicClass>Graphic_Single</graphicClass>
